@@ -1,0 +1,115 @@
+/* Take out the browser's default margin and padding */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Take out the browser's default margin and padding */
+
+/* Code to style the logo's width, margin-left and margin-top */
+
+.web-logo .logo{
+    width: 80px;
+    margin-left: 100px;       
+}
+
+/* Code to style the logo's width, margin-left and margin-top */
+
+/* Code to make the logo display flex and a position to allow the navbar be on the same line with it */
+
+.web-logo{
+    display: flex;
+    position: absolute;
+}
+
+/* Code to make the logo display flex and a position to allow the navbar be on the same line with it */
+
+/* Code to style the navbar, take out the text decoration, make the color black, give it a margin top and margin left */
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-left: 40px; 
+    font-size: 16px;
+}
+
+/* Code to style the navbar, take out the text decoration, make the color black, give it a margin top and margin left */
+
+
+/* This is the code to make the links be at the center and on the same line with the logo */
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* This is the code to make the links be at the center and on the same line with the logo */
+
+.banner-image{
+    margin-top: 25px;
+}
+
+/* Code to give the link a margin left and margin top */
+
+.navbar{
+    margin-left: 200px;
+    margin-top: 35px;
+}
+
+/* Code to give the link a margin left and margin top */
+
+/* Code to make the banner image fit to the screen */
+.b-image{
+    margin-top: 25px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+/* Code to make the banner image fit to the screen */
+
+/* Code to make banner text stay on the image and also to center the image */
+.banner-text{
+    position: absolute;
+    margin-top: 198px;    
+    color: #fff;
+    font-size: 56px;
+    font-weight: 400;    
+}
+/* Code to make all element on the banner stay on the image and also to center the image */
+
+.banner-text p {    
+    margin-left: 290px;
+    margin-right: 290px;    
+}
+
+/* Code to make the banner button stay on the image */
+.banner-button{
+    margin-left: 540px;
+    margin-bottom: 102px;
+}
+/* Code to make the banner button stay on the image */
+
+/* Code to change the color, background-color of the button and also to take out border and give it border radius */
+.banner-text button{
+    color: white;
+    background: rgba(110, 140, 244, 1);
+    border: none;   
+    border-radius: 3px; 
+    padding: 10px 16px;
+    font-size: 20px;
+}
+/* Code to change the color, background-color of the button and also to take out border and give it border radius */
+
+/* Code to change the banner button color on mouse hover */
+.banner-text button:hover{
+    background-color: red;
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+}
+/* Code to change the banner button color on mouse hover */
