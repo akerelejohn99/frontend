@@ -1,115 +1,231 @@
-/* Take out the browser's default margin and padding */
-
 body{
     margin: 0;
     padding: 0;
 }
 
-/* Take out the browser's default margin and padding */
-
-/* Code to style the logo's width, margin-left and margin-top */
-
-.web-logo .logo{
-    width: 80px;
-    margin-left: 100px;       
-}
-
-/* Code to style the logo's width, margin-left and margin-top */
-
-/* Code to make the logo display flex and a position to allow the navbar be on the same line with it */
-
-.web-logo{
+.header-container{
     display: flex;
-    position: absolute;
-}
-
-/* Code to make the logo display flex and a position to allow the navbar be on the same line with it */
-
-/* Code to style the navbar, take out the text decoration, make the color black, give it a margin top and margin left */
-
-.navbar ul li a {
-    color: black;
-    text-decoration: none;
-    margin-top: 45px;
-    margin-left: 40px; 
-    font-size: 16px;
-}
-
-/* Code to style the navbar, take out the text decoration, make the color black, give it a margin top and margin left */
-
-
-/* This is the code to make the links be at the center and on the same line with the logo */
-
-ul {
-    list-style: none;
-    display: flex;
+    align-items: center;
     justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;    
+}
+
+.navbar li a{
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;    
+}
+
+.header-container img{
+    margin-right: 202px;
+}
+
+.banner-container{
+    background: url('images/banner-image.png')center/cover no-repeat;
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+.banner-container span{
+    color: red;
+}
+.banner-container p {
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 700px;
+    margin-left: 290px;
+    margin-top: 198px;
+}
+
+.banner-container button{
+    margin-top: 40px;
+    background-color: rgba(110, 140, 244, 1);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 3px;
+    color: white;
+    
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 102px;
+    
+}
+
+.about-container img{
+    margin-left: 100px;
+}
+
+.about-container{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.about-header h1,
+.about-header p,
+.about-header button{
+    margin-left: 90px;
+} 
+
+.about-header p{
+    width: 335px;
+}
+
+.about-header h1{
+    margin-top: 80px;
+}
+
+.about-header button, .we-do-container button{
+    margin-top: 20px;
+    background-color: rgba(110, 140, 244, 1);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 3px;
+    color: white;
+    
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
 }
 
-/* This is the code to make the links be at the center and on the same line with the logo */
-
-.banner-image{
-    margin-top: 25px;
+.we-do-container{
+    display: flex;  
+    margin-bottom: 120px;  
 }
 
-/* Code to give the link a margin left and margin top */
-
-.navbar{
-    margin-left: 200px;
-    margin-top: 35px;
+.we-do-header h1,
+.we-do-header p,
+.we-do-header button{
+    margin-left: 172px;
 }
 
-/* Code to give the link a margin left and margin top */
-
-/* Code to make the banner image fit to the screen */
-.b-image{
-    margin-top: 25px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-}
-/* Code to make the banner image fit to the screen */
-
-/* Code to make banner text stay on the image and also to center the image */
-.banner-text{
-    position: absolute;
-    margin-top: 198px;    
-    color: #fff;
-    font-size: 56px;
-    font-weight: 400;    
-}
-/* Code to make all element on the banner stay on the image and also to center the image */
-
-.banner-text p {    
-    margin-left: 290px;
-    margin-right: 290px;    
+.we-do-header p{
+    width: 335px;
 }
 
-/* Code to make the banner button stay on the image */
-.banner-button{
-    margin-left: 540px;
-    margin-bottom: 102px;
+.we-do-header{
+    margin-right: 148px;
 }
-/* Code to make the banner button stay on the image */
 
-/* Code to change the color, background-color of the button and also to take out border and give it border radius */
-.banner-text button{
+.we-do-header h1{
+    margin-top: 78px;
+}
+
+.product-header{
+    margin-left: 100px;
+}
+
+.product-container{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 120px;
+}
+
+.product-image-text p{    
+    text-align: center;
+    margin-top: 16px;
+}
+
+.product-image-text img{
+    margin-right: 30px;
+}
+
+.product-image-text img:hover{
+    transform: scale(1.1);    
+}
+
+.testimonial-header{
+    margin-left: 100px;
+}
+.testimonial-container{
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.testimonial-container-2 p, 
+.testimonial-container-2 h2, 
+.testimonial-container-2 span{
+    margin-left: 80px;
+}
+
+.testimonial-container-2 p{
+    width: 555px;
+    margin-top: 62px;
+}
+
+
+.footer{
+    background: rgba(29, 25, 222, 1);
+    padding: 50px;
+}
+
+.footer-image-text p{
+    width: 307px;
     color: white;
-    background: rgba(110, 140, 244, 1);
-    border: none;   
-    border-radius: 3px; 
-    padding: 10px 16px;
-    font-size: 20px;
 }
-/* Code to change the color, background-color of the button and also to take out border and give it border radius */
 
-/* Code to change the banner button color on mouse hover */
-.banner-text button:hover{
-    background-color: red;
-    transition: ease-in-out 1s;
-    transform: scale(1.1);
+.footer-image-text{
+    margin-right: 140px;
 }
-/* Code to change the banner button color on mouse hover */
+
+.footer-container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.footer-link a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.footer-link h1{
+    color: white;    
+}
+
+.footer-link{
+    margin-right: 180px;
+}
+
+.footer-link .quick{
+    width: 179px;
+}
+
+.footer-icon-text{
+    display: flex;
+    align-items: center;    
+}
+
+.footer-icon-text img{
+    margin-right: 30px;
+}
+
+.footer-icon-text p{
+    color: white;
+}
+
+.footer-soical-icon {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.footer-soical-icon img{
+    margin-right: 21px;
+}
